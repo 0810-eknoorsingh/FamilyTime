@@ -1,0 +1,85 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+    background-color: white;
+}
+
+* {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+#nowPlayingBarContainer {
+	width: 100%;
+    background-color: #282828;
+    bottom: 0;
+    position: fixed;
+    min-width: 620px;
+}
+
+#nowPlayingBar {
+	display: flex;
+    height: 90px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+#nowPlayingLeft,
+#nowPlayingRight {
+	width: 30%;
+    min-width: 180px;
+}
+
+#nowPlayingRight {
+	position: relative;
+    margin-top: 16px;
+}
+
+#nowPlayingCenter {
+	width: 40%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        margin-left: 380px;
+}
+
+#nowPlayingBar .content {
+	width: 100%;
+	height: 57px;
+}
+
+.playerControls .buttons {
+	margin: 0 auto;
+    display: table;
+}
+
+.controlButton {
+	background-color: transparent;
+    border: none;
+    vertical-align: middle;
+}
+
+.controlButton img {
+	width: 35px;
+    height: 35px;
+}
+
+.controlButton.play img,
+.controlButton.pause img {
+	width: 32px;
+	height: 32px;
+}
+
+.controlButton:hover {
+	cursor: pointer;
+}
+
+
+}
+
+
+
+
+
